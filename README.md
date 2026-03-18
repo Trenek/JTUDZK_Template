@@ -9,8 +9,14 @@ cd JTUDZK_Template
 git submodule update --init --recursive
 ```
 # How to compile it?
+Linux
 ```
 cmake -B build
+cmake --build build --target all -j16
+```
+Windows
+```
+cmake -B build -G "MinGW Makefiles"
 cmake --build build --target all -j16
 ```
 
