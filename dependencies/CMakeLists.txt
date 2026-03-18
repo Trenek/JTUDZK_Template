@@ -1,8 +1,6 @@
 add_subdirectory(CAPD)
 add_subdirectory(raylib)
 
-# find_program(GNUPLOT_EXECUTABLE gnuplot REQUIRED)
-
 set(INCLUDE_DIRECTORIES
 )
 
